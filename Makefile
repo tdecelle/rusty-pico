@@ -20,4 +20,4 @@ build:
 	cargo build $(release)
 
 run:
-	./target/$(target)/rust-pico
+	cargo run $(release)
